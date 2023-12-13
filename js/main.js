@@ -25,7 +25,19 @@
         }
     });
     
-    
+    function setActive(sectionId) {
+        // Remove the 'active' class from all nav links
+        var navLinks = document.querySelectorAll('.navbar-nav a');
+        navLinks.forEach(function (link) {
+            link.classList.remove('active');
+        });
+
+        // Add the 'active' class to the selected nav link
+        var selectedNavLink = document.querySelector(`.navbar-nav a[href="#${sectionId}"]`);
+        selectedNavLink.classList.add('active');
+    }
+
+
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
