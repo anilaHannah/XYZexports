@@ -80,3 +80,12 @@
     });
     
 })(jQuery);
+
+ function validateForm() {
+        var form = document.getElementById('contactForm');
+        if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+ }
