@@ -625,7 +625,7 @@ h6,
   
   .hero .carousel-item::before {
     content: "";
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(30, 30, 48, 0.7);
     position: absolute;
     inset: 0;
   }
@@ -700,7 +700,7 @@ h6,
     background: none;
     font-size: 26px;
     line-height: 0;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(9, 9, 9, 0.2);
     color: rgba(255, 255, 255, 0.6);
     border-radius: 50px;
     width: 54px;
@@ -723,7 +723,7 @@ h6,
   
   .hero .carousel-control-prev:hover,
   .hero .carousel-control-next:hover {
-    opacity: 0.9;
+    opacity: 0.5;
   }
   
 /*--------------------------------------------------------------
@@ -739,8 +739,9 @@ h6,
   .constructions .card-item .card-bg {
     min-height: 300px;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
     background-repeat: no-repeat;
+    height: 100%;
   }
   
   .constructions .card-item .card-body {
