@@ -504,10 +504,13 @@ h6,
 # Constructions Section
 --------------------------------------------------------------*/
 .constructions .card-item {
-    border: 1px solid rgba(82, 86, 94, 0.2);
-    background: #fff;
+    /* border: 1px solid rgba(82, 86, 94, 0.2); */
+    /* padding: 30px 25px; */
+    background: #FFFFFF;
     position: relative;
     border-radius: 0;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
   }
   
   .constructions .card-item .card-bg {
@@ -526,10 +529,11 @@ h6,
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 15px;
-    color: var(--color-secondary);
+    /* color: var(--color-secondary); */
   }
   
   .constructions .card-item p {
-    color: var(--color-secondary);
+    /* color: var(--color-secondary); */
     margin: 0;
   }
+ 
