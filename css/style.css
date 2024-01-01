@@ -264,6 +264,7 @@ h6,
 .service-item h5,
 .service-item p {
     transition: .5s;
+    font-weight: 500;
 }
 
 .service-item:hover h5,
