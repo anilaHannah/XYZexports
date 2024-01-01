@@ -503,7 +503,7 @@ h6,
   
 /*--------------------------------------------------------------
 # Constructions Section
---------------------------------------------------------------*/
+-------------------------------------------------------------*/
 .constructions .card-item {
     /* border: 1px solid rgba(82, 86, 94, 0.2); */
     /* padding: 30px 25px; */
@@ -520,6 +520,7 @@ h6,
     background-position: center; 
     background-repeat: no-repeat;
     height: 100%;
+    transition: .5s;
   }
   
   .constructions .card-item .card-body {
@@ -537,5 +538,6 @@ h6,
     /* color: var(--color-secondary); */
     font-weight: 500;
     margin: 0;
+    text-align: justify;
   }
  
