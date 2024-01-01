@@ -534,6 +534,7 @@ h6,
   
   .constructions .card-item p {
     /* color: var(--color-secondary); */
+    font-weight: 500;
     margin: 0;
   }
  
